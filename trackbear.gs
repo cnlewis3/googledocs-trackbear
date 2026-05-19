@@ -15,7 +15,7 @@ function onOpen() {
   ui.createMenu('🐻Update Trackbear🐻') // Create a custom menu.
     .addItem('Update Trackbear with current tab as project', 'updateProjectTab')  // Add the menu item.
     .addItem('UpdateTrackbear with all tabs as project', 'updateProject')
-    .addToUi();  // Add the menu to the UI.
+    .addToUi(); 
 }
 
 function callTrackbear(count, projectId){
@@ -30,7 +30,6 @@ function callTrackbear(count, projectId){
     "tags": []
   }
   var payload = JSON.stringify(data);
-  // Make request to API with payload after this point.
 
   const options = {
     method: 'post',
