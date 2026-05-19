@@ -1,6 +1,7 @@
-# Google Docs Trackbear
+# Google Docs Trackbear Integration
 
-This Apps Script sends Google Docs word counts to Trackbear.
+This Apps Script gives you a button to update a Trackbear project with your current google docs word count.
+![TrackBear Button](image.png)
 
 ## Decide which setup to use first
 
